@@ -172,10 +172,13 @@ main{
         gap: 10px;
     }
   /* heading section end */
+
+
     /* ------------------top-player-section--------- */
     .top-player-container{
      grid-template-columns: repeat(1,1fr);
      width: 100%;
+     
     }
     /* top-blogs-section start  ---- */
     .top-blogs-container{
@@ -186,6 +189,7 @@ main{
     }
     main{
         padding: 0;
+        width: 100%;
     }
 
 
@@ -195,14 +199,12 @@ main{
     /* latest-course-section start */
 
     .latest-course-section{
-        width: 90%;
+        width: 100%;
     }
     .latest-course-container{
         grid-template-columns: repeat(1,1fr);
     
         gap: 10px;
     }
-    
-
 
 }
